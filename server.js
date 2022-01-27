@@ -20,7 +20,7 @@ fs.readFile('./www/index.html', 'utf8' , (err, data) => {
       return 1
     }
     console.log(data)
-  })
+  
 // If there is an error, put it on the console error, return, and exit with error code 1. 
 // Do not be nice about exiting.
 
@@ -50,3 +50,4 @@ server.listen(port, () => {
 
 
 // That's it! You're all done!
+})
